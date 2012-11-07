@@ -1,0 +1,12 @@
+inherit pypy-distutils
+
+NAME="pypy-chardet"
+VERSION=2.0.1
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="PyPy character encoding detection library"
+DESCRIPTION="Character encoding auto-detection in Python 2 and 3."
+HOMEPAGE="http://chardet.feedparser.org/"
+# website is down
+SRC_URI="mirror://gentoo/python2-chardet-${VERSION}.tgz"
+SRC_DIR="python2-chardet-${VERSION}"
